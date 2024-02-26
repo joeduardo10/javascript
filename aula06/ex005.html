@@ -17,9 +17,18 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>aqui vai o resultado</p>
     <p>aprndendo a usar o <strong>DOM </strong>em javascrip</p>
-    <div>clique em mim.</div>
+    <div id="msg">clique em mim.</div>
     <script>
-       window.document.write(window.document.URL) 
+       /* var p1 =window.document.getElementsByTagName('p')[0]
+        p1.style.color ='blue'
+       window.document.write('ESTÁ ESCRITO ASSIM ==> '+p1.innerText)*/
+       var corpo = window.document.body 
+       var d = window.document.getElementById('msg')
+       d.style.backgroundColor='green'
+       //d.innerText = 'Estou Aguardando'
+      // window.document.getElementById('msg').innerText = 'ola!'
+      var f =window.document.querySelector('div#msg')
+      f.style.color = 'red'
     </script>
 </body>
 </html>
