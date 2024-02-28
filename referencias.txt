@@ -3,3 +3,4 @@ Referencias gratuitas
 https://developer.mozilla.org/pt-BR/docs/Learn/CSS
 https://ecma-international.org/
 https://ecma-international.org/publications-and-standards/standards/ecma-262/
+https://developer.mozilla.org/en-US/docs/Web/Events
