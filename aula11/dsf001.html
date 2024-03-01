@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio transformar o ex009 em site</title>
+    <style>
+        body{
+            font: normal 18pt arial;
+        }
+        input{
+            font: normal 12pt arial;
+            width: 100px;
+        }
+        div#res{
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Desafio 1    </h1>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="comparar()">
+    <div id="res"></div>
+    <script>
+        function comparar(){
+            var txtcountry = document.getElementById('txtpais')
+            var pais =String(txtcountry.value)
+            var res = window.document.getElementById('res')
+            res.innerHTML = `<p>voce digitou ${pais}  </p>`
+            if(pais == 'brasil'){
+                res.innerHTML += 'BRASILEIRO'
+            }else{
+                res.innerHTML += 'ESTRANGEIRO'
+            }
+        }
+    </script>
 </body>
 </html>
