@@ -18,7 +18,7 @@ for(var i=10;i>=0;i--){
     console.log(i)
 }
 
-for(var i=10;i>=0;i+2){
+for(var i=10;i>=0;i-=3){ // o passo mudo com o incremento
     console.log(i)
 }
 
