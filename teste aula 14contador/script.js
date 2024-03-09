@@ -21,7 +21,7 @@ function calcular(){
             inicio+=passo 
         }*/
         do{
-            res.innerHTML += inicio
+            res.innerHTML += `👉 ${inicio }`
             inicio+=passo 
         }while(inicio <= final)
 
